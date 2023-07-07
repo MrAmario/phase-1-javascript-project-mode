@@ -1,0 +1,83 @@
+ body{
+    background-image: URL("https://images.unsplash.com/photo-1681158200230-39fd79b125f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(255, 255, 255);
+}
+
+#bigHeader{
+    text-align: center;
+    font-family:'Rajdhani', sans-serif;
+    font-size:48px;
+    color: #fff;
+    font-display:initial;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#header:hover{
+    color: hotpink;
+    transition: 0.2s;
+    font-size: 80px;
+    opacity:1.2
+
+}
+#navhead{
+    background-size: cover;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+#cloth-name{
+    background:none;
+    color:yellow;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+#cloth-name:hover{
+    color: #000;
+    font-size: 30px;
+}
+ 
+ #cloth-head{
+    display:contents;
+    padding-top: 400px;
+    
+ }
+#cloth-content{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+#pic {width:450px}
+#pic{position: relative;}
+#pic::after{
+    content:"HalisTradeLine";
+    font-size: 30px;
+    font-weight:lighter;
+    color:purple;
+    opacity: 0.8;
+    position: absolute;
+    bottom:0;
+    right:0;
+    
+}
+#colors{
+    color: aqua;
+    font-size: 20px;
+    
+}
+#btn{
+    align-self:end;
+}
+#OrderForm{
+    display:none;
+
+}
