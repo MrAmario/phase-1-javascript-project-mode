@@ -4,20 +4,48 @@
     background-repeat: no-repeat;
     color:rgb(255, 255, 255);
 }
+#bigheader label{
+    text-align: center;
+}
 
-#bigHeader{
+.header{
     text-align: center;
     font-family:'Rajdhani', sans-serif;
-    font-size:48px;
-    color: #fff;
+    text-transform:capitalize;
+    font-size:85px;
+    color:#fff;
     font-display:initial;
     cursor: pointer;
     opacity: 0.5;
+    height:80px;
+    width:100%;
+    margin-left:35%;
+    margin-right:75;
 }
-#header:hover{
+nav ul{
+    font-size:20px;
+    float:right;
+    margin-right:15px;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+}
+nav ul li a{
+    color:#fff;
+    border:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul li a:hover{
+    color:hotpink;
+    font-size:30px;
+    transition: 0.6s;
+}
+.header:hover{
     color: hotpink;
     transition: 0.2s;
-    font-size: 80px;
+    font-size: 110px;
     opacity:1.2
 
 }
@@ -80,4 +108,16 @@
 #OrderForm{
     display:none;
 
+}
+#price{
+    color:rgb(153, 255, 0);
+    font-size:25px
+}
+#links{
+    text-align: left;
+    color:white;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
 }

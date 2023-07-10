@@ -42,6 +42,7 @@ function displayClothes(cloth){
     <div id="image">
     <img id="pic" src=${cloth.image}</p>
     </div>
+    <p id="price">Price= KES ${cloth.price}</p>
     <p id="colors"  >Colours available: ${cloth.colours}</p>
     <button id="btn" onClick="openForm()">Order</buton>
     
@@ -80,10 +81,9 @@ function buildForm(){
 
 document.querySelector('#OrderForm').addEventListener('submit', (e)=>{
     e.preventDefault();
-    alert("Your Order hass been made")
     console.log("Make your order")
+    alert("Your Order hass been made")
 })
 
-document.getElementById('#header').addEventListener('click').reload()
 
 

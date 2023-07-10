@@ -3,19 +3,22 @@
 				"name":"Jeans",
 					"type":"Ripped",
 							"image":"https://images.unsplash.com/photo-1582552938357-32b906df40cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGplYW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-							"colours":["Black", "Blue", "Grey", "Denim Blue"]
+							"colours":["Black", "Blue", "Grey", "Denim Blue"],
+							"price": "1,700"
 },
 {				"name":"Hoodies",
 						"type":"Plain",
 							"image" : "https://images.unsplash.com/photo-1622567893612-a5345baa5c9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9vZGllc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60",
-							"colours":["Black","white", "blue", "Green", "Yellow", "Brown", "Red", "Purple"]
+							"colours":["Black","white", "blue", "Green", "Yellow", "Brown", "Red", "Purple"],
+							"price": "2,200"
 							
 },
 {"name":"Shirts",
 				"type":"T-Shirts",
 					"level":"plain",
 						"image":"https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-						"colours": ["Black","white", "blue", "Green", "Yellow", "Brown", "Red", "Purple"]
+						"colours": ["Black","white", "blue", "Green", "Yellow", "Brown", "Red", "Purple"],
+						"price":"750"
 }
 					
 			,
@@ -23,11 +26,27 @@
 {"name":"Shorts",
 				"type":"Khaki shorts",
 					"image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/56/587157/1.jpg?7734",
-					"colours":[ "Black","white", "Green", "Brown", "Red", "Purple"]
+					"colours":[ "Black","white", "Green", "Brown", "Red", "Purple"],
+					"price": "690"
+},
+{"name": "Trainers",
+				"type":"Airforce 1",
+				"image":"https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3774&q=80",
+				"colours":["white", "black", "blue", "grey"],
+				"price":"2,200"
+				
+},
+{"name":"open-shoes",
+				"type":"Slipers",
+				"image":"https://images.unsplash.com/photo-1622920799137-86c891159e44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80",
+				"colours":["red", "blue", "yellow", "black"],
+				"price":"430"
+
 }
 				
 			
 ]
 }
+
 
 																														

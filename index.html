@@ -14,7 +14,13 @@
 </head>
 <body>
     <nav id="bigHeader">
-    <h1 id="header">HalisTradeLine</h1>
+        <label class="header">HalisTradeLine</label>
+            <ul id="links">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+
+            </ul>
     </nav>
 <nav id="navhead">
   
@@ -32,11 +38,25 @@
             <input type="text" id="customerName" placeholder="Enter your Names" required><br>
             <label for="size">Enter your size</label><br>
             <input type="number" id="size" placeholder="Enter your size" required><br>
+            <label for="colours">Select your colour</label><br>
+            <select name="colours">
+                <option value="blue"></option>
+                <option value="blue">Black</option>
+                <option value="blue">White</option>
+                <option value="blue">Green</option>
+                <option value="blue">Brown</option>
+                <option value="blue">Red</option>
+                <option value="blue">Purple</option>
+                <option value="blue">Yellow</option>
+                <option value="blue">Grey</option>
+                <option value="blue">Denim blue</option>
+               
+            </select><br>
             <label for="email">Email</label><br>
             <input type="text" id="email" placeholder="Enter Your Email" required><br>
             <label for="location">Location of Delivery</label><br>
             <input type="text" id="location" placeholder="Where would like it delivered to?" required><br>
-            <input id="subm" type="submit" value="Submit">
+            <input id="subm" type="submit" value="Submit" onclick="window.location.reload()">
         </form>
         
     </div> 
